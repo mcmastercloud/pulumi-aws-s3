@@ -19,7 +19,6 @@ pipelines:
           script:
             - mv .npmrc_config .npmrc
             - npm install
-            - npm test
       - step:
           name: Lint the node package
           script:
@@ -37,7 +36,6 @@ pipelines:
             script:
               - mv .npmrc_config .npmrc
               - npm install
-              - npm test
         - step:
             name: Security Scan
             script:
