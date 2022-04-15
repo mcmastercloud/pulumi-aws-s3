@@ -1,5 +1,5 @@
 {
-  "name": "@deloitte-cloud-uk/pulumi-module-aws-vpc",
+  "name": "@deloitte-cloud-uk/pulumi-aws-vpc",
   "version": "0.0.1",
   "description": "Module for Creating Vpcs",
   "main": "cidr.js",
