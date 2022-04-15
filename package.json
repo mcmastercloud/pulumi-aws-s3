@@ -1,5 +1,6 @@
 {
   "name": "@deloitte-cloud-uk/pulumi-aws-vpc",
+  "type": "module",
   "version": "0.0.1",
   "description": "Module for Creating Vpcs",
   "main": "cidr.js",
@@ -18,9 +19,10 @@
     "start": "index.js"
   },
   "dependencies": {
-    "@pulumi/pulumi": "^3.0.0",
+    "@deloitte-cloud-uk/cidr": "1.2.0",
+    "@deloitte-cloud-uk/pulumi-aws-vpc": "^1.0.4",
     "@pulumi/aws": "^5.0.0",
     "@pulumi/awsx": "^0.40.0",
-    "@deloitte-cloud-uk/cidr": "1.2.0"
+    "@pulumi/pulumi": "^3.0.0"
   }
 }
