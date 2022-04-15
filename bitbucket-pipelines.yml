@@ -17,6 +17,7 @@ pipelines:
           caches:
             - node
           script:
+            - mv .npmrc_config .npmrc
             - npm install
             - npm test
       - step:
