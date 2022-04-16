@@ -1,1 +1,5 @@
 bitbucket-pipelines.yml
+*.ts
+README.md
+.npmrc_config
+tsconfig.json
