@@ -3,7 +3,8 @@
   "type": "commonjs",
   "version": "0.0.1",
   "description": "Module for Creating Vpcs",
-  "main": "index.js",
+  "main": "bin/index.js",
+  "types" "vpc.d.ts",
   "author": {
     "name": "Stephen McMaster"
   },
@@ -19,8 +20,7 @@
     "start": "index.js"
   },
   "dependencies": {
-    "@deloitte-cloud-uk/cidr": "^1.2.0",
-    "@deloitte-cloud-uk/pulumi-aws-vpc": "^1.0.4",
+    "@deloitte-cloud-uk/cidr": "1.0.17",
     "@pulumi/aws": "^5.0.0",
     "@pulumi/awsx": "^0.40.0",
     "@pulumi/pulumi": "^3.0.0"

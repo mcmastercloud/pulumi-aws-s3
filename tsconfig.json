@@ -4,12 +4,13 @@
     "target": "es6",
     "lib": [ "es6" ],
     "sourceMap": true,
-    "strict":  true
+    "outDir": "bin"
   },
   "exclude": [
     "node_modules"
   ],
   "files": [
-    "index.ts"
+    "index.ts",
+    "classes.ts"
   ]
 }

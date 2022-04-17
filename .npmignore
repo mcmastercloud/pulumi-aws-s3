@@ -2,3 +2,5 @@ bitbucket-pipelines.yml
 README.md
 .npmrc_config
 tsconfig.json
+classes.ts
+index.ts
