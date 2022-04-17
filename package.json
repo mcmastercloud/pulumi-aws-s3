@@ -20,7 +20,7 @@
     "start": "index.js"
   },
   "dependencies": {
-    "@deloitte-cloud-uk/cidr": "1.0.17",
+    "@deloitte-cloud-uk/cidr": "1.0.18",
     "@pulumi/aws": "^5.0.0",
     "@pulumi/awsx": "^0.40.0",
     "@pulumi/pulumi": "^3.0.0"
