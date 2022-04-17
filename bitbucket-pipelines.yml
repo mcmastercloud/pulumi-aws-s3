@@ -46,6 +46,12 @@ pipelines:
           name: Deploy to Production
           deployment: Production
           script:
+            # Compile Typescript
+            - mv .npmrc_config .npmrc
+            - npm install
+            # Build the module, to generate the .js files in the bin directory
+            - npm install typescript -g
+            - npm run build
             # Bump versions before publishing
             - npm --no-git-tag-version version "1.0.$BITBUCKET_BUILD_NUMBER" -m "Upgrade to new version"
             # Publish package
