@@ -1,9 +1,9 @@
 {
-  "name": "@deloitte-cloud-uk/pulumi-aws-vpc",
+  "name": "@deloitte-cloud-uk/pulumi-aws-s3",
   "type": "commonjs",
   "version": "0.0.1",
-  "description": "Module for Creating Vpcs",
-  "main": "bin/index.js",
+  "description": "Module for Creating S3 Buckets",
+  "main": "index.js",
   "types": "vpc.d.ts",
   "author": {
     "name": "Stephen McMaster"
